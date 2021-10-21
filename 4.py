@@ -1,9 +1,9 @@
 # add code below for problem 4
 
 def add(n):
-    def increment(nums):
+    def increment(lst):
         new_list = []
-        for i in nums:
+        for i in lst:
             new_list.append(i + n)
         return new_list
     
